@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-width: 1400px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.name{
+    color:blueviolet;
+    font-family: monospace;
+    font-size: 50px;
+}
+.description{
+    font-size: 25px;
+}
+.job-info{
+    text-align: start;
+    width: 40%;
+    font-size: 20px;
+}
+
+li:hover{
+    color:blue;
+    cursor: pointer;
+}
+.banner-container{
+    max-width: 1500px;
+}
+.icon{
+    margin-top: 20px;
+}
+
+.message p {
+    margin-bottom: 0.5px; 
+  }
+  
+.icon{
+    margin-top: 0.25px;
+    padding-right: 50px;
+}
+.form-container{
+    max-width: 600px;
+    width: 100%;
+    border: none;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;;
+}
+
+.study{
+    margin-bottom: 0.5px;
+}
+
+.project-description{
+    width:50%;
+    text-align: center;
+}
+.skillset{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+   .skillset{
+    align-items: center;;
+   }
+  
+   .card1{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+        
+}
+    
+}
+
